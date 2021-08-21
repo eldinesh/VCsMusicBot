@@ -1,6 +1,5 @@
 FROM debian:latest
 FROM python:3.9.6-slim-buster
-RUN apt update && apt upgrade -y
 ENV NODE_VERSION=8.10.0
 RUN apt-get update && \
     apt-get install wget curl ca-certificates rsync -y
